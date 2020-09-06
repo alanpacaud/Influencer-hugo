@@ -6,8 +6,8 @@ summaryLength = "10"
 theme = "influencer-hugo"
 title = "Mapishu"
 [[menu.main]]
-URL = "book"
-name = "About"
+URL = "Accueil"
+name = "Accueil"
 weight = 1
 [[menu.main]]
 URL = "chapter"
