@@ -34,7 +34,7 @@ copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) Al
 description = "This is meta description"
 googleAnalitycsID = ""
 home = "Accueil"
-logo = "upload/logomapishu.png"
+logo = "images/logomapishu.png"
 [params.footer]
 content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 [params.navButton]
@@ -56,7 +56,7 @@ URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/magnific-popup/magnific-popup.min.js"
 [params.preloader]
-enable = false
+enable = true
 preloader = ""
 [[params.share]]
 icon = "ti-facebook"
