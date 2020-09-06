@@ -6,7 +6,7 @@ summaryLength = "10"
 theme = "influencer-hugo"
 title = "Mapishu"
 [[menu.main]]
-URL = "Accueil"
+URL = "accueil"
 name = "Accueil"
 weight = 1
 [[menu.main]]
