@@ -83,14 +83,14 @@
     /* ----------------------------------------------------------- */
 
 
-    $(window).on('scroll', function () {
+    /*$(window).on('scroll', function () {
       if ($(window).scrollTop() > 10) {
         $('.site-header').addClass('header-white');
       } else {
         $('.site-header').removeClass('header-white');
       }
 
-    });
+    });*/
 
 
 
