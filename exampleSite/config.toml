@@ -4,6 +4,7 @@ paginate = 6
 summaryLength = "10"
 theme = "influencer-hugo"
 title = "Mapishu"
+subtitle = "Shiatsu & bien-être"
 [[menu.main]]
 URL = "book"
 name = "About"
