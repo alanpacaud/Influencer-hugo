@@ -10,8 +10,8 @@ URL = "Accueil"
 name = "Accueil"
 weight = 1
 [[menu.main]]
-URL = "chapter"
-name = "Chapter"
+URL = "shiatsu"
+name = "Shiatsu"
 weight = 2
 [[menu.main]]
 URL = "review"
