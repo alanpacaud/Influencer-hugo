@@ -1,10 +1,10 @@
 baseURL = "https://mapishu.netlify.com"
 languageCode = "en-us"
 paginate = 6
+subtitle = "Shiatsu & bien-être"
 summaryLength = "10"
 theme = "influencer-hugo"
 title = "Mapishu"
-subtitle = "Shiatsu & bien-être"
 [[menu.main]]
 URL = "book"
 name = "About"
@@ -61,7 +61,7 @@ enable = true
 preloader = ""
 [[params.share]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/mariemapishu"
 title = "facebook"
 [[params.share]]
 icon = "ti-twitter-alt"
