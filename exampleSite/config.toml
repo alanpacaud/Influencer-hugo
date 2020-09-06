@@ -14,8 +14,8 @@ URL = "shiatsu"
 name = "Shiatsu"
 weight = 2
 [[menu.main]]
-URL = "review"
-name = "Reviews"
+URL = "autre-soins"
+name = "Autres Soins"
 weight = 3
 [[menu.main]]
 URL = "author"
