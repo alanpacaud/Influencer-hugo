@@ -31,8 +31,8 @@ name = "Contact"
 weight = 6
 [params]
 author = "Alan Pacaud"
-copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) All Rights Reserved"
-description = "This is meta description"
+copyright = "Copyright &copy; 2020 [Alan Pacaud](https://github.com/alanpacaud) All Rights Reserved"
+description = "Shiatsu & bien-être"
 googleAnalitycsID = ""
 home = "Accueil"
 logo = "images/uploads/logomapishu.png"
