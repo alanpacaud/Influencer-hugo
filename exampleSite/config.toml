@@ -73,5 +73,5 @@ link = "#"
 title = "linkedin"
 [[params.share]]
 icon = "ti-github"
-link = "#"
+link = "https://github.com/alanpacaud"
 title = "github"
