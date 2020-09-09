@@ -52,7 +52,12 @@
 		width: 75%;
 		height: 100%;
 		//background: #F4F7FC;
-		background: #FFF9C2;
+		//background: #FFF9C2;
+		background-image: url("/images/uploads/fond-mapishu.png");
+		background-color: $golden;
+		background-position: center;
+		background-repeat: repeat;
+		background-size: cover;
 		border-radius: 20px 0px 0px 20px;
 	}
 }
