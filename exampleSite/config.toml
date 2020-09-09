@@ -27,7 +27,7 @@ copyright = "Copyright &copy; 2020 [Alan Pacaud](https://github.com/alanpacaud) 
 description = "Shiatsu & bien-être"
 googleAnalitycsID = ""
 home = "Accueil"
-logo = "images/uploads/logomapishu.png"
+logo = "images/uploads/logo-mapishu.png"
 [params.footer]
 content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 [params.navButton]
