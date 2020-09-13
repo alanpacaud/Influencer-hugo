@@ -12,14 +12,15 @@
     padding-right: 1rem !important;
     padding-left: 1rem !important;
     font-weight: 700;
-    color: #051441 !important;
+    //color: #051441 !important;
+    color: $violetRose!important;
     text-transform: capitalize;
 }
 
 
 .navbar-nav .nav-link.active{
-    //color: $primary-color!important;
-    color: $violetRose!important;
+    color: $primary-color!important;
+    //color: $violetRose!important;
 }
 
 
