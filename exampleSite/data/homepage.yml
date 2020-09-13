@@ -15,11 +15,6 @@ banner:
 ######################## Book Preview ##########################
 preview:
   enable : true
-  pagePreview:
-    # page preview loop
-    - image : "images/about/book_page.png"
-    - image : "images/about/book_page2.png"
-    - image : "images/about/book_page.png"
 
   title : "Un retour au corps"
   content : "
