@@ -1,4 +1,13 @@
 /*--------------------
+Fonts
+-----------------*/
+@font-face {
+    font-family: titleFont;
+    src: url("/font/NalikaSignature.otf");
+}
+
+
+/*--------------------
 Common Styles
 -----------------*/
 body{
@@ -8,6 +17,9 @@ body{
     background-repeat: repeat;*/
     background-size: cover;
     color: $black;
+}
+.title{
+    font-family: titleFont, sans-serif;
 }
 .section-heading {
     margin-bottom: 80px;
