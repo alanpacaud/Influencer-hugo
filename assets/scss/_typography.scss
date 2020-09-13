@@ -108,17 +108,20 @@ h3 a,
 h4 a,
 h5 a,
 h6 a{
-    color: #263b5e;
+    //color: #263b5e;
+    color: $violetRose;
 
     &:hover{
-        color: $primary-color;
+        //color: $primary-color;
+        color: $black;
     }
 }
 
 
 .section-heading{
     h2{
-        color: #263b5e;
+        //color: #263b5e;
+        color: $violetRose;
         font-weight: 600;
     }
 }
