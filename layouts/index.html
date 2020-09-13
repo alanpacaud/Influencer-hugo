@@ -66,11 +66,11 @@
           <h2 class="text-lg mb-4">{{ .title | markdownify }}</h2>
           {{ .content | markdownify }}
 
-          <ul class="list-unstyled mt-4 mb-5">
+          <!--<ul class="list-unstyled mt-4 mb-5">
             {{ range .inside }}
             <li><i class="ti-check mr-3"></i> {{ .insideItem | markdownify }}</li>
             {{ end }}
-          </ul>
+          </ul>-->
           {{ if .button.enable }}
           {{ with .button }}
           <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }}</a>
