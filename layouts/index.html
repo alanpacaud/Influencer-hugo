@@ -94,6 +94,8 @@
       <div>
         <div class="section-heading book-info mt-5 mt-lg-0">
           <h2 class="mx-auto mb-4 title">{{ .title | markdownify }}</h2>
+
+          <h3 class="mx-auto mb-4 title">{{ .subtitle | markdownify }}</h3>
           {{ .content | markdownify }}
 
           <!--<ul class="list-unstyled mt-4 mb-5">
@@ -123,7 +125,7 @@
 {{ end }}
 
 <!-- Quote -->
-{{ if .Site.Data.homepage.quote.enable }}
+<!--{{ if .Site.Data.homepage.quote.enable }}
 {{ with .Site.Data.homepage.quote }}
 <section class="section bg-grey" id="quote">
   <div class="container">
@@ -142,11 +144,10 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }}-->
 
 <!-- Chapter -->
-{{ if .Site.Data.homepage.chapters.enable }}
-{{ with .Site.Data.homepage.chapters }}
+<!--{{ with .Site.Data.homepage.chapters }}
 <section class="section chapter" id="chapter">
   <div class="container">
     <div class="row">
@@ -170,7 +171,7 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 
 <!-- Review-->
 {{ if .Site.Data.homepage.reviews.enable }}
