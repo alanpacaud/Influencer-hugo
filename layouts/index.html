@@ -97,81 +97,14 @@
 
           <h3 class="mx-auto mb-4 title">{{ .subtitle | markdownify }}</h3>
           {{ .content | markdownify }}
-{{ end }}
-          <!--<ul class="list-unstyled mt-4 mb-5">
-            {{ range .inside }}
-            <li><i class="ti-check mr-3"></i> {{ .insideItem | markdownify }}</li>
-            {{ end }}
-          </ul>-->
-          <!--<a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }}</a>-->
         </div>
       </div>
 
     </div>
-    <!--<div class="row align-items-center">
-      {{ range .serviceItem }}
-      <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="service-block mb-4 mb-lg-0">
-          <i class="{{ .icon }} text-danger"></i>
-          <h4 class="mb-3 mt-4">{{ .title | markdownify }}</h4>
-          <p class="mb-0">{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>-->
   </div>
 </section>
 {{ end }}
 {{ end }}
-
-<!-- Quote -->
-<!--{{ if .Site.Data.homepage.quote.enable }}
-{{ with .Site.Data.homepage.quote }}
-<section class="section bg-grey" id="quote">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="text-center">
-          <blockquote class="blockquote">
-            <h2 class="text-lg">"{{ .quote | markdownify }}"</h2>
-            {{ if .quoteBy }}
-            <footer class="blockquote-footer h5 text-color mt-4">{{ .quoteBy }}</footer>
-            {{ end }}
-          </blockquote>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}-->
-
-<!-- Chapter -->
-<!--{{ with .Site.Data.homepage.chapters }}
-<section class="section chapter" id="chapter">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="section-heading">
-          <h2 class="text-lg">{{ .title | markdownify }}</h2>
-          <p>{{ .subtitle | markdownify }}</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      {{ range .chapter }}
-      <div class="col-sm-6">
-        <div class="chapter-item">
-          <h4>{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }} -->
 
 <!-- Review-->
 {{ if .Site.Data.homepage.reviews.enable }}
@@ -405,6 +338,4 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
-
 {{ end }}
