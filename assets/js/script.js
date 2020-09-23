@@ -1,4 +1,4 @@
-  // Preloader js    
+  // Preloader js
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
   });
@@ -20,7 +20,7 @@
     $('a.smoth-scroll').on('click', function (e) {
       var anchor = $(this);
       $('html, body').stop().animate({
-        scrollTop: $(anchor.attr('href')).offset().top - 100
+        scrollTop: $(anchor.attr('href')).offset().top - 300
       }, 1000);
       e.preventDefault();
     });
