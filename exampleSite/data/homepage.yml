@@ -274,8 +274,8 @@ blog:
 ################################# Contact ##############################
 contact:
   enable : true
-  title : "Contact Us"
-  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  title : "Me contacter"
+  subtitle : ""
   contactItem:
     # contact Item loop
     - title : "Contact Quickly"
