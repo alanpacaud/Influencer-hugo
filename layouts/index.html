@@ -149,6 +149,16 @@
         <div class="section-heading text-center">
           <h2 class="mb-2 text-lg">{{ .title | markdownify }}</h2>
           <p>{{ .subtitle | markdownify }}</p>
+          {{ if .image }}
+          <div class="col-lg-5 d-none d-lg-block">
+            <!--<div class="banner-img pt-5">
+              <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100" style="border-radius: 60%;">
+            </div>-->
+            <div class="banner-img">
+              <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
+            </div>
+          </div>
+          {{ end }}
         </div>
       </div>
     </div>

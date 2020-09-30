@@ -276,6 +276,7 @@ contact:
   enable : true
   title : "Me contacter"
   subtitle : ""
+  image: "images/uploads/contactmapi.png"
   contactItem:
     # contact Item loop
     - title : "Mon Téléphone"
