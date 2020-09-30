@@ -290,7 +290,7 @@ contact:
         - listItem : "mariepoidevin@posteo.net"
 
     # contact Item loop
-    - title : "Location"
+    - title : "Mon Adresse"
       icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "397 Lake forest drive street USA"
+        - listItem : "42 rue de la gare, 44140 Montbert"
