@@ -22,7 +22,7 @@ URL = "contact"
 name = "Contact"
 weight = 6
 [params]
-author = "Alan Pacaud"
+author = "Marie Poidevin"
 copyright = "Copyright &copy; 2020 [Mapishu](https://github.com/alanpacaud) All Rights Reserved"
 description = "Shiatsu & bien-être"
 googleAnalitycsID = ""
