@@ -23,7 +23,7 @@ name = "Contact"
 weight = 6
 [params]
 author = "Alan Pacaud"
-copyright = "Copyright &copy; 2020 [Alan Pacaud](https://github.com/alanpacaud) All Rights Reserved"
+copyright = "Copyright &copy; 2020 [Mapishu](https://github.com/alanpacaud) All Rights Reserved"
 description = "Shiatsu & bien-être"
 googleAnalitycsID = ""
 home = "Accueil"
