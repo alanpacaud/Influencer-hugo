@@ -16,6 +16,17 @@ banner:
              Après 8 ans de sport à haut niveau et de conditionnement à la performance,
 
              mon état de santé m’a amené à revaloriser mon rapport au corps. »"
+  description: >
+  Short description
+  of this post
+
+
+  **bold** -- _italics_ --- ~~strikethrough~~ `monospace`
+
+
+  These lines <br />
+  show up with line breaks <br />
+  but within the same paragraph.
   price : "14.99"
 
 ######################## Book Preview ##########################
