@@ -4,7 +4,7 @@
 {{ if .Site.Data.homepage.banner.enable }}
 {{ with .Site.Data.homepage.banner }}
 <section class="banner-main py-7" id="accueil">
-  <!--<div class="container">-->
+  <div class="container">
     <!--<div class=" justify-content-between">-->
       <div >
         <div class="main-banner">
@@ -17,7 +17,7 @@
           <p class="mb-4">{{ .content | markdownify }}</p>
           <br>
           <br>
-          <p class="mb-4" style="text-align: center!important;">{{ .quote | markdownify }}</p>
+          <p class="mb-4" style="text-align: center!important; padding-right: 0;">{{ .quote | markdownify }}</p>
 
           <!--<button class="snipcart-add-item btn btn-main mt-2" data-item-id="1"
           data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="/">
@@ -44,7 +44,7 @@
       </div>
       {{ end }}
     <!--</div>-->
-  <!--</div>-->
+  </div>
 </section>
 {{ end }}
 {{ end }}
