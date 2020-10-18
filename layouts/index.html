@@ -22,10 +22,10 @@
         </div>
       </div>
       {{ if .logo}}
-      <div >
-
+      <div class="row">
+        <div class="w-50 mx-auto">
           <img src="{{ .logo | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid" style="height: 300px; width: 300px;">
-
+        </div>
       </div>
       {{ end }}
 
