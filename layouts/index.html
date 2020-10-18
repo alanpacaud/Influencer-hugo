@@ -21,6 +21,13 @@
         </button>-->
         </div>
       </div>
+      {{ if .logo}}
+      <div class=" d-none d-lg-block">
+        <div class="banner-img">
+          <img src="{{ .logo | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
+        </div>
+      </div>
+      {{ end }}
 
       {{ if .image }}
       <div class=" d-none d-lg-block">
