@@ -67,3 +67,5 @@ title = "linkedin"
 icon = "ti-github"
 link = "https://github.com/alanpacaud"
 title = "github"
+[markup.goldmark.renderer]
+unsafe= true
