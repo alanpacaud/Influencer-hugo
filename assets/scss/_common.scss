@@ -42,7 +42,7 @@ body{
   background: url("/images/uploads/fond-mapishu.png") no-repeat center center $golden;
 }*/
 p{
-  background: url("/images/uploads/fond-mapishu.png") no-repeat center center $darker-golden;
+  background: $darker-golden;
   font-family: caviarDreams, sans-serif;
 }
 a.nav-link.smoth-scroll{
