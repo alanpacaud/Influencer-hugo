@@ -24,7 +24,7 @@
       {{ if .logo}}
       <div class=" d-none d-lg-block">
         <div class="banner-img">
-          <img src="{{ .logo | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
+          <img src="{{ .logo | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid" style="height: 350px; width: 350px;">
         </div>
       </div>
       {{ end }}
