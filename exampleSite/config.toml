@@ -29,7 +29,7 @@ googleAnalitycsID = ""
 home = "Accueil"
 logo = "images/uploads/logo-mapishu-resized.png"
 [params.footer]
-content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+content = "Marie Poidevin, praticienne en shiatsu."
 [params.navButton]
 enable = false
 [[params.plugins.css]]
