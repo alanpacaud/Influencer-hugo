@@ -14,6 +14,17 @@ banner:
   Laisse pointer à la surface le souffle d'un renouveau. »"
   description : "Après 8 ans de sport à haut niveau et de conditionnement à la performance, <br />
   mon état de santé m'a à revaloriser mon rapport au corps et à remettre du sens dans mes actions. <br />"
+  test: ">
+  Short description
+  of this post
+
+
+  **bold** -- _italics_ --- ~~strikethrough~~ `monospace`
+
+
+  These lines <br />
+  show up with line breaks <br />
+  but within the same paragraph."
   price : "14.99"
 
 ######################## Book Preview ##########################
