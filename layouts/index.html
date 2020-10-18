@@ -40,6 +40,7 @@
         </div>-->
         <div class="banner-img">
           <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
+          <p class="mb-4">{{ .description | markdownify }}</p>
         </div>
       </div>
       {{ end }}
