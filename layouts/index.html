@@ -22,7 +22,7 @@
         </div>
       </div>
       {{ if .logo}}
-      <div class=" d-none d-lg-block">
+      <div class="d-lg-block">
         <div class="banner-img">
           <img src="{{ .logo | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid" style="height: 350px; width: 350px;">
         </div>
@@ -30,7 +30,7 @@
       {{ end }}
 
       {{ if .image }}
-      <div class=" d-none d-lg-block">
+      <div class="d-lg-block">
         <!--<div class="banner-img pt-5">
           <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100" style="border-radius: 60%;">
         </div>-->
