@@ -5,8 +5,8 @@
 {{ with .Site.Data.homepage.banner }}
 <section class="banner-main py-7" id="accueil">
   <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-7 col-md-8">
+    <div class=" justify-content-between">
+      <div >
         <div class="main-banner">
           <!--<span class="text-color font-weight-bold">{{ .writter | markdownify }}</span>-->
           <h1 class="mb-3 mt-2 title">{{ .title | markdownify }}</h1>
@@ -23,7 +23,7 @@
       </div>
 
       {{ if .image }}
-      <div class="col-lg-5 d-none d-lg-block">
+      <div class=" d-none d-lg-block">
         <!--<div class="banner-img pt-5">
           <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100" style="border-radius: 60%;">
         </div>-->
