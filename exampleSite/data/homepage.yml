@@ -6,13 +6,13 @@ banner:
   logo: "images/uploads/SPECIALISTE.jpg"
   image : "images/uploads/marie-profil.jpg"
   content :
-    -line: "« J’accompagne les personnes dont le corps ne suit plus le rythme."
-    -line: "Le rythme imposé par le mental d’être performant à tous les niveaux."
-    -line: "Un mental qui empêche le corps de guérir quand nous nous sommes coupés de nos ressentis."
-    -line: "Un corps qui souffre de ne pas être entendu et que l’on blâme d’être affaibli."
-    -line: "Après 8 ans de sport à haut niveau et de conditionnement à la performance,
+    -line1: "« J’accompagne les personnes dont le corps ne suit plus le rythme."
+    -line2: "Le rythme imposé par le mental d’être performant à tous les niveaux."
+    -line3: "Un mental qui empêche le corps de guérir quand nous nous sommes coupés de nos ressentis."
+    -line4: "Un corps qui souffre de ne pas être entendu et que l’on blâme d’être affaibli."
+    -line5: "Après 8 ans de sport à haut niveau et de conditionnement à la performance,
     mon état de santé m’a amené à revaloriser mon rapport au corps. »"
-    -line: ""
+    -line6: ""
 
 
 
