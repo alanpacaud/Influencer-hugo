@@ -184,7 +184,7 @@
       <div class="col-lg-4 col-sm-6">
         <div class="contact-info-block text-center mb-4" style="height: 242px;">
           <i class="{{ .icon }}"></i>
-          <p class="mb-0">{{ .title | markdownify }}</p>
+          <div class="mb-0">{{ .title | markdownify }}</div>
           {{ range .list }}
           <h5>{{ .listItem }}</h5>
           {{ end }}
