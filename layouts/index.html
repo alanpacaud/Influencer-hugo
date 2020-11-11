@@ -15,9 +15,6 @@
             <h4>Price :- <span class="text-color">${{ .price }}</span></h4>
           </div>-->
           <p class="mb-4" style="text-align: left;">{{ .content | markdownify }}</p>
-          <br>
-          <br>
-          <p class="mb-4" style="text-align: left!important; padding-right: 0;">{{ .quote | markdownify }}</p>
 
           <!--<button class="snipcart-add-item btn btn-main mt-2" data-item-id="1"
           data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="/">
@@ -39,6 +36,9 @@
 
         </div>
 <p >{{ .description | markdownify }}</p>
+<br>
+<br>
+<p class="mb-4" style="text-align: left!important; padding-right: 0;">{{ .quote | markdownify }}</p>
       </div>
 
       {{ end }}
@@ -53,7 +53,7 @@
       </div>
       {{ end }}
 
-      
+
     <!--</div>-->
   </div>
 </section>
