@@ -44,9 +44,11 @@
       {{ end }}
 
       {{ if .logo}}
+      <br>
+      <br>
       <div  class="row justify-content-center">
         <!--Début carrousel-->
-        <div style="width: 600px;">
+        <div style="width: 200px;">
           <img src="{{ .logo | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid">
         </div>
         <!-- Fin Caroussel -->
